@@ -21,7 +21,7 @@ import ui.components.Note
 /**
  * Main activity приложения.
  */
-class MainActivity : AppCompatActivity() {
+class   MainActivity : AppCompatActivity() {
   private val viewModel: MainViewModel by viewModels(factoryProducer = {
     MainViewModelFactory(
       this,
